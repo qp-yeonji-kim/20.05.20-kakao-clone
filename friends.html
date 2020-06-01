@@ -9,6 +9,7 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends</title>
   </head>
 
@@ -24,100 +25,101 @@
         <span class="status-bar__battery-lavel">100%</span>
         <i class="fas fa-battery-full"></i>
       </div>
+    </div>
 
-      <header class="header">
-        <div class="header__header-column">
-          <h1 class="header__title">Friends</h1>
-        </div>
-        <div class="header__header-column">
-          <span class="header__icon">
-            <i class="fas fa-search"></i>
-          </span>
-          <span class="header__icon">
-            <i class="fas fa-cog"></i>
-          </span>
-        </div>
-      </header>
+    <header class="header__header">
+      <div class="header__header-column">
+        <h1 class="header__title">Friends</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
 
-      <main class="friends">
-        <header class="friends__header">
-          <div class="friends__friend friend friend--lg">
-            <div class="friend__column">
-              <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-              <div class="friend__content">
-                <span class="freind__name">
-                  Nicolas Serrano
-                </span>
-                <span class="friend__status">
-                  nomadcoders.co
-                </span>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        <div class="friends__plus">
-          <h5 class="friends__title">Plus friend</h5>
-        </div>
+    <main class="friends">
+      <header class="friends__header">
         <div class="friends__friend friend friend">
           <div class="friend__column">
             <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
-              <span class="freind__name">
+              <span class="friend__name">
+                Nicolas Serrano
+              </span>
+              <span class="friend__status">
+                nomadcoders.co
+              </span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="friends__plus">
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend friend">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
                 Plus Friend
               </span>
             </div>
           </div>
         </div>
+      </div>
 
-        <h5 class="friends__title">Friends 14</h5>
-        <ul class="friends__list">
-          <li class="friends__friend friend friend--lg">
-            <div class="friend__column">
-              <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-              <div class="friend__content">
-                <span class="freind__name">
-                  Nicolas Serrano
-                </span>
-                <span class="friend__status">
-                  nomadcoders.co
-                </span>
-              </div>
+      <h5 class="friends__title">Friends 14</h5>
+      <ul class="friends__list">
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Nicolas Serrano.
+              </span>
+              <span class="friend__status">
+                nomadcoders.co
+              </span>
             </div>
-            <div class="freind__column">
-              <div class="friend__now-listening">
-                <span>Apink (에이핑크)</span>
-                <i class="fas fa-play"></i>
-              </div>
+          </div>
+          <div class="freind__column">
+            <div class="friend__now-listening">
+              <span>Apink (에이핑크) - FIVE</span>
+              <i class="fas fa-play"></i>
             </div>
-          </li>
-        </ul>
-      </main>
+          </div>
+        </li>
+      </ul>
+    </main>
 
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <a href="friends.html" class="nav__list-link">
-              <i class="fas fa-user"></i>
-            </a>
-          </li>
-          <li class="nav__list-item">
-            <a href="index.html" class="nav__list-link">
-              <i class="far fa-comment"></i>
-            </a>
-          </li>
-          <li class="nav__list-item">
-            <a href="find.html" class="nav__list-link">
-              <i class="far fa-search"></i>
-            </a>
-          </li>
-          <li class="nav__list-item">
-            <a href="more.html" class="nav__list-link">
-              <i class="fas fa-ellipsis-h"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>

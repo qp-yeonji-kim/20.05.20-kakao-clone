@@ -1,0 +1,71 @@
+.more .friend {
+  padding: 0px 28px 38px;
+}
+
+.more .more__btn-list {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 30px 38px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.more__btn-list .more__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 66px;
+}
+
+.more .more__btn-icon {
+  font-size: 35px;
+}
+
+.more__btn-title {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.more .more__title {
+  padding: 30px 0px 20px 22px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.more .more__suggestions-list {
+  display: flex;
+  padding: 0px 0px 30px 37px;
+}
+
+.more .more__suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 33px;
+  cursor: pointer;
+}
+
+.suggestion .suggestion__icon {
+  border: 1px solid #e8db69;
+  border-radius: 10px;
+  font-size: 35px;
+  background-color: #fce006;
+  color: white;
+}
+
+.suggestion #first_icon {
+  padding: 6px 6.5px;
+}
+
+.suggestion #second_icon {
+  padding: 6px 8.69px;
+}
+
+.suggestion #third_icon {
+  padding: 6px 2.127px;
+}
+
+.suggestion__title {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #7f7f7f;
+}

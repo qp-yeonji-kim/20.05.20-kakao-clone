@@ -1,0 +1,77 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+}
+
+.friend__avatar.m-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+}
+
+.friend__avatar.g-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2d2d2d;
+}
+
+.friend__content .friend__bottom-text {
+  font-size: 14px;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 12px;
+}
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+  color: #acacac;
+}
+
+/*.friend__add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+왜 얘한테 flex가?*/
+
+.find .friend {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friend__add-btn {
+  padding: 15px 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+/*이렇게 써도 되는데 저렇게 써도 내가 원하는대로 되네?*/
