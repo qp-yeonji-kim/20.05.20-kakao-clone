@@ -20,31 +20,40 @@
 
 .chat__write--container {
   position: fixed;
-  left: 0;
-  right: 0;
+  left: 0px;
+  right: 0px;
   bottom: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 20px;
-  margin: 0 auto;
-  background-color: #fcfcfc;
-  /* box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
-    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-} */
+  width: 100%;
+}
 
 .chat__write {
   position: fixed;
-  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
   width: 100%;
   padding: 20px 60px;
   border: none;
   border-radius: 0px;
   font-size: 14px;
+  transition: width 0.5s ease-in-out, border-radius 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .chat__write:focus {
+  width: 80%;
   outline: none;
+  border-radius: 40px;
+  transform: translateX(-50%) translateY(-100px);
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.chat__write:focus-within ~ .chat__icon {
+  opacity: 0;
 }
 
 .chat__icon {
@@ -52,17 +61,16 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.chat__write:focus ~ .chat__icon {
-  opacity: 0;
-}
-
 .chat__icon-left {
   position: absolute;
+  left: 30px;
+  bottom: 20px;
 }
 
 .chat__icon-right {
   position: absolute;
-  right: 10px;
+  bottom: 20px;
+  right: 30px;
 }
 
 .chat__write i {
