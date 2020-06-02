@@ -9,7 +9,7 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
-        <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chat</title>
   </head>
   <body class="chats-body">
@@ -29,8 +29,8 @@
       <header class="header__header">
         <div class="header__header-column">
           <a href="index.html" class="header__back-btn">
-              <i class="fas fa-arrow-left"></i>
-            </a>
+            <i class="fas fa-arrow-left"></i>
+          </a>
           <h1 class="header__title">Best Friend</h1>
         </div>
         <div class="header__header-column">
@@ -53,7 +53,9 @@
             <span class="message__bubble">
               Congrats I love you!
             </span>
-            <span class="message__author">Best Friend</span>
+            <span class="message__author">
+              Best Friend
+            </span>
           </div>
         </li>
         <li class="sent-message message">
@@ -83,20 +85,19 @@
         </li>
       </ul>
     </main>
-    
-    <div class="chat__write">
-      <div class="chat__write-column">
+
+    <div class="chat__write--container">
+      <input type="text" placeholder="Send message" class="chat__write" class="chat__write-input" />
+    <div class="chat__icon-left">
         <i class="far fa-plus-square"></i>
       </div>
-      <div class="chat__write-column">
-        <input type="text" placeholder="Send message" class="chat__write-input" />
-      </div>
-        <div class="chat__write-column">
+        <div class="chat__icon-right">
         <span class="chat__write-icon">
           <i class="far fa-smile-wink"></i>
         </span>
         <span class="chat__write-icon">
           <i class="fas fa-microphone"></i>
         </span>
+        </div>
   </body>
 </html>
